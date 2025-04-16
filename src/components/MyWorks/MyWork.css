@@ -93,3 +93,31 @@
         margin-left: 60px;
     }
 }
+
+@media (max-width: 375px){
+    .my-work{
+        margin: 0;
+    }
+    .mywork-title h1{
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    .mywork-title img{
+        width: 120px;
+    }
+    .mywork-container{
+        grid-template-columns: 1fr 1fr;
+        margin-left: 0px;
+        gap: 20px;
+    }
+    .mywork-container img{
+        width: 150px;
+        height: 100px;
+    }
+    .mywork-showmore{
+        margin-left: 0px;
+    }
+    .mywork-showmore img{
+        width: 20px;
+    }
+}
