@@ -131,3 +131,32 @@
         border-radius: 40px;
     }
 }
+
+@media(max-width: 425px){
+    .hero img{
+        width: 250px;
+    }
+    .hero h1{
+        font-size: 35px;
+        width: 90%;
+    }
+    .hero p{
+        font-size: 15px;
+        width: 90%;
+        line-height: 30px;
+    }
+    .hero-action{
+        gap: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+    .hero-connect{
+        padding: 10px 15px;
+        border-radius: 40px;
+    }
+    .hero-resume {
+        padding: 10px 25px;
+        border-radius: 40px;
+    }
+}

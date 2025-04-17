@@ -84,6 +84,10 @@
 .tab-contents.active-tab{
     display: block;
 }
+.about-left img{
+    width: 400px;
+    border-radius: 15px;
+}
 @media (max-width: 768px){
     .about{
         gap: 20px;
@@ -155,6 +159,39 @@
     }
     .about-para{
         font-size: 12px;
+        line-height: 20px;
+    }
+    .tab-links{
+        margin-right: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 425px){
+    .about{
+        margin: 0 20px;
+        gap: 20px;
+    }
+    .about-title h1{
+        font-size: 40px;
+    }
+    .about-title img{
+        width: 150px;
+    }
+    .about-sections {
+        display: flex;
+        flex-direction: column; 
+        gap: 20px;
+    }
+    .about-left img{
+        width: 300px;
+        border-radius: 15px;
+    }
+    .about-left, .about-right {
+        flex: none;
+    }
+    .about-para{
+        font-size: 14px;
         line-height: 20px;
     }
     .tab-links{
